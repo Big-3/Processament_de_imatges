@@ -1,0 +1,152 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6",
+    "python-language-server >=0.36.2"
+  ],
+  "extracted_package_dir": "/home/swaglot/miniconda3/pkgs/pyls-spyder-0.3.2-pyhd3eb1b0_0",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/pyls_spyder-0.3.2.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/pyls_spyder-0.3.2.dist-info/LICENSE",
+    "lib/python3.6/site-packages/pyls_spyder-0.3.2.dist-info/METADATA",
+    "lib/python3.6/site-packages/pyls_spyder-0.3.2.dist-info/RECORD",
+    "lib/python3.6/site-packages/pyls_spyder-0.3.2.dist-info/REQUESTED",
+    "lib/python3.6/site-packages/pyls_spyder-0.3.2.dist-info/WHEEL",
+    "lib/python3.6/site-packages/pyls_spyder-0.3.2.dist-info/direct_url.json",
+    "lib/python3.6/site-packages/pyls_spyder-0.3.2.dist-info/entry_points.txt",
+    "lib/python3.6/site-packages/pyls_spyder-0.3.2.dist-info/top_level.txt",
+    "lib/python3.6/site-packages/pyls_spyder/__init__.py",
+    "lib/python3.6/site-packages/pyls_spyder/plugin.py",
+    "lib/python3.6/site-packages/pyls_spyder/utils.py",
+    "lib/python3.6/site-packages/pyls_spyder/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/pyls_spyder/__pycache__/plugin.cpython-36.pyc",
+    "lib/python3.6/site-packages/pyls_spyder/__pycache__/utils.cpython-36.pyc"
+  ],
+  "fn": "pyls-spyder-0.3.2-pyhd3eb1b0_0.conda",
+  "legacy_bz2_md5": "af59d024359af399fd419d14da0c12be",
+  "legacy_bz2_size": 10151,
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/swaglot/miniconda3/pkgs/pyls-spyder-0.3.2-pyhd3eb1b0_0",
+    "type": 1
+  },
+  "md5": "371ceed512c2b253df70330486168d4f",
+  "name": "pyls-spyder",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/swaglot/miniconda3/pkgs/pyls-spyder-0.3.2-pyhd3eb1b0_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/pyls_spyder-0.3.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/pyls_spyder-0.3.2.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "c207414a12342599a3d4b603cbb15be698b5e957b28b2ea60d91dc0e5a0a7e01",
+        "sha256_in_prefix": "c207414a12342599a3d4b603cbb15be698b5e957b28b2ea60d91dc0e5a0a7e01",
+        "size_in_bytes": 1067
+      },
+      {
+        "_path": "site-packages/pyls_spyder-0.3.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "f2ced6f547b963137f4dff3a42c0867483d13855f26b6e4622980247c28576d6",
+        "sha256_in_prefix": "f2ced6f547b963137f4dff3a42c0867483d13855f26b6e4622980247c28576d6",
+        "size_in_bytes": 4623
+      },
+      {
+        "_path": "site-packages/pyls_spyder-0.3.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "108df9b1269e28688623bfa9a683e2739ecfd695d0de83fdb0cf9a415d167733",
+        "sha256_in_prefix": "108df9b1269e28688623bfa9a683e2739ecfd695d0de83fdb0cf9a415d167733",
+        "size_in_bytes": 1179
+      },
+      {
+        "_path": "site-packages/pyls_spyder-0.3.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pyls_spyder-0.3.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "sha256_in_prefix": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/pyls_spyder-0.3.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "24842f74c2e9621c1ec9f71ac55f7252bf189c1ca928ff69aef025fcf6c9c514",
+        "sha256_in_prefix": "24842f74c2e9621c1ec9f71ac55f7252bf189c1ca928ff69aef025fcf6c9c514",
+        "size_in_bytes": 84
+      },
+      {
+        "_path": "site-packages/pyls_spyder-0.3.2.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "b58a1b43a95ad1bcbfe543d3009aa7208b8a896fc3824643b5232f65c3035e91",
+        "sha256_in_prefix": "b58a1b43a95ad1bcbfe543d3009aa7208b8a896fc3824643b5232f65c3035e91",
+        "size_in_bytes": 41
+      },
+      {
+        "_path": "site-packages/pyls_spyder-0.3.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "98931588ccd7c1ff90c976c144b12dc42b0137ed5c8eba9681ca9118cfb93924",
+        "sha256_in_prefix": "98931588ccd7c1ff90c976c144b12dc42b0137ed5c8eba9681ca9118cfb93924",
+        "size_in_bytes": 12
+      },
+      {
+        "_path": "site-packages/pyls_spyder/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3970359c41675cdfa57495e8d75b8e4548152e8cd49b4d986f944adc6eec6c2b",
+        "sha256_in_prefix": "3970359c41675cdfa57495e8d75b8e4548152e8cd49b4d986f944adc6eec6c2b",
+        "size_in_bytes": 436
+      },
+      {
+        "_path": "site-packages/pyls_spyder/plugin.py",
+        "path_type": "hardlink",
+        "sha256": "73fb2af4b69fc0911aca2aa39e14535541c74a85c2f064b745e8dfe604e54e39",
+        "sha256_in_prefix": "73fb2af4b69fc0911aca2aa39e14535541c74a85c2f064b745e8dfe604e54e39",
+        "size_in_bytes": 6424
+      },
+      {
+        "_path": "site-packages/pyls_spyder/utils.py",
+        "path_type": "hardlink",
+        "sha256": "23c57bebca37bbecc833a2626dc18d554820e9d28ce557ad815df388327ab9d4",
+        "sha256_in_prefix": "23c57bebca37bbecc833a2626dc18d554820e9d28ce557ad815df388327ab9d4",
+        "size_in_bytes": 1508
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pyls_spyder/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pyls_spyder/__pycache__/plugin.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pyls_spyder/__pycache__/utils.cpython-36.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "497441d939bc11361ec01314bbdbeaa9900d0c63a514cc729c1d41380d5ea0d5",
+  "size": 10218,
+  "subdir": "noarch",
+  "timestamp": 1613849742377,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/pyls-spyder-0.3.2-pyhd3eb1b0_0.conda",
+  "version": "0.3.2"
+}

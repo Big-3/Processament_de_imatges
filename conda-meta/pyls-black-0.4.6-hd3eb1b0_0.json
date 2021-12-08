@@ -1,0 +1,132 @@
+{
+  "build": "hd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "black",
+    "python-language-server",
+    "toml"
+  ],
+  "extracted_package_dir": "/home/swaglot/miniconda3/pkgs/pyls-black-0.4.6-hd3eb1b0_0",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/pyls_black-0.4.6.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/pyls_black-0.4.6.dist-info/METADATA",
+    "lib/python3.6/site-packages/pyls_black-0.4.6.dist-info/RECORD",
+    "lib/python3.6/site-packages/pyls_black-0.4.6.dist-info/REQUESTED",
+    "lib/python3.6/site-packages/pyls_black-0.4.6.dist-info/WHEEL",
+    "lib/python3.6/site-packages/pyls_black-0.4.6.dist-info/direct_url.json",
+    "lib/python3.6/site-packages/pyls_black-0.4.6.dist-info/entry_points.txt",
+    "lib/python3.6/site-packages/pyls_black-0.4.6.dist-info/top_level.txt",
+    "lib/python3.6/site-packages/pyls_black/__init__.py",
+    "lib/python3.6/site-packages/pyls_black/plugin.py",
+    "lib/python3.6/site-packages/pyls_black/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/pyls_black/__pycache__/plugin.cpython-36.pyc"
+  ],
+  "fn": "pyls-black-0.4.6-hd3eb1b0_0.conda",
+  "legacy_bz2_md5": "7619d6abfa059f1c2720e151b488332a",
+  "legacy_bz2_size": 8094,
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/swaglot/miniconda3/pkgs/pyls-black-0.4.6-hd3eb1b0_0",
+    "type": 1
+  },
+  "md5": "cdb49993ecbe9d5ccb5eee81a0cfa534",
+  "name": "pyls-black",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/swaglot/miniconda3/pkgs/pyls-black-0.4.6-hd3eb1b0_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/pyls_black-0.4.6.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/pyls_black-0.4.6.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "1dc1469605dfbc7f9d131061d618b139edfc1847637ec464950834b42be0504b",
+        "sha256_in_prefix": "1dc1469605dfbc7f9d131061d618b139edfc1847637ec464950834b42be0504b",
+        "size_in_bytes": 2020
+      },
+      {
+        "_path": "site-packages/pyls_black-0.4.6.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "25b7ba06042585ae6f1b98e1ddb965cbf177c6cff222282cd54271f4a79f462b",
+        "sha256_in_prefix": "25b7ba06042585ae6f1b98e1ddb965cbf177c6cff222282cd54271f4a79f462b",
+        "size_in_bytes": 946
+      },
+      {
+        "_path": "site-packages/pyls_black-0.4.6.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pyls_black-0.4.6.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "4bacde3c36d4023ccc9a960e8367070f1b98156c3b5a2397b7aa2033a8480794",
+        "sha256_in_prefix": "4bacde3c36d4023ccc9a960e8367070f1b98156c3b5a2397b7aa2033a8480794",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/pyls_black-0.4.6.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "b4a7e6102e597454fef07b43e4b53fe2bac08b147ea91c455f6672927c22fe17",
+        "sha256_in_prefix": "b4a7e6102e597454fef07b43e4b53fe2bac08b147ea91c455f6672927c22fe17",
+        "size_in_bytes": 83
+      },
+      {
+        "_path": "site-packages/pyls_black-0.4.6.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "e2a531d6f76b537382774e02896eb30d08b3e613488661c37b3d2b7fa49aecfc",
+        "sha256_in_prefix": "e2a531d6f76b537382774e02896eb30d08b3e613488661c37b3d2b7fa49aecfc",
+        "size_in_bytes": 39
+      },
+      {
+        "_path": "site-packages/pyls_black-0.4.6.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "1ce7196a82d88cb18e22c12aa0337c2dd14e399e681dbd2cff8268daf06fdc18",
+        "sha256_in_prefix": "1ce7196a82d88cb18e22c12aa0337c2dd14e399e681dbd2cff8268daf06fdc18",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "site-packages/pyls_black/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pyls_black/plugin.py",
+        "path_type": "hardlink",
+        "sha256": "c2d62a38a593fd887814675a84c5fc1aab72c92aff6e091974843d35adffe605",
+        "sha256_in_prefix": "c2d62a38a593fd887814675a84c5fc1aab72c92aff6e091974843d35adffe605",
+        "size_in_bytes": 2860
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pyls_black/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pyls_black/__pycache__/plugin.cpython-36.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "dbaca803956dfe0b39fbc1be3cc8356ce66b7b4ce4595153e028e139ca3674f6",
+  "size": 9023,
+  "subdir": "noarch",
+  "timestamp": 1607553174023,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/pyls-black-0.4.6-hd3eb1b0_0.conda",
+  "version": "0.4.6"
+}

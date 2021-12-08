@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /home/swaglot/miniconda3/envs/Reconeixedor_resistencies/bin/python -m PyQt5.pylupdate_main ${1+"$@"}

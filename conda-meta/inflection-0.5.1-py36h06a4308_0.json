@@ -1,0 +1,101 @@
+{
+  "build": "py36h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/home/swaglot/miniconda3/pkgs/inflection-0.5.1-py36h06a4308_0",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/inflection-0.5.1-py3.6.egg-info/PKG-INFO",
+    "lib/python3.6/site-packages/inflection-0.5.1-py3.6.egg-info/SOURCES.txt",
+    "lib/python3.6/site-packages/inflection-0.5.1-py3.6.egg-info/dependency_links.txt",
+    "lib/python3.6/site-packages/inflection-0.5.1-py3.6.egg-info/not-zip-safe",
+    "lib/python3.6/site-packages/inflection-0.5.1-py3.6.egg-info/top_level.txt",
+    "lib/python3.6/site-packages/inflection/__init__.py",
+    "lib/python3.6/site-packages/inflection/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/inflection/py.typed"
+  ],
+  "fn": "inflection-0.5.1-py36h06a4308_0.conda",
+  "legacy_bz2_md5": "dffbeea624f5305455c3c2a066898793",
+  "legacy_bz2_size": 12734,
+  "license": "MIT",
+  "link": {
+    "source": "/home/swaglot/miniconda3/pkgs/inflection-0.5.1-py36h06a4308_0",
+    "type": 1
+  },
+  "md5": "d3fa451d315ad2c9a712149e6ecbe9d5",
+  "name": "inflection",
+  "package_tarball_full_path": "/home/swaglot/miniconda3/pkgs/inflection-0.5.1-py36h06a4308_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.6/site-packages/inflection-0.5.1-py3.6.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "09ec2fbcd26cda039cae4a58f2f210509c738586ebf2c2b6745f78e5f98ee176",
+        "sha256_in_prefix": "09ec2fbcd26cda039cae4a58f2f210509c738586ebf2c2b6745f78e5f98ee176",
+        "size_in_bytes": 1933
+      },
+      {
+        "_path": "lib/python3.6/site-packages/inflection-0.5.1-py3.6.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "59331e9f91abb81694fc8e519d3c8743eb823576a073d06e4f260d2bc5aae0c6",
+        "sha256_in_prefix": "59331e9f91abb81694fc8e519d3c8743eb823576a073d06e4f260d2bc5aae0c6",
+        "size_in_bytes": 359
+      },
+      {
+        "_path": "lib/python3.6/site-packages/inflection-0.5.1-py3.6.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.6/site-packages/inflection-0.5.1-py3.6.egg-info/not-zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.6/site-packages/inflection-0.5.1-py3.6.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "013daf6116463066276ac35d8f8a096e949d765b58499ddc6461fc063a3bc50a",
+        "sha256_in_prefix": "013daf6116463066276ac35d8f8a096e949d765b58499ddc6461fc063a3bc50a",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "lib/python3.6/site-packages/inflection/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3f2dfceedae1d0ff7399c238e70da02eb0c0a658e2f649ad1abe6cec36374c3f",
+        "sha256_in_prefix": "3f2dfceedae1d0ff7399c238e70da02eb0c0a658e2f649ad1abe6cec36374c3f",
+        "size_in_bytes": 11437
+      },
+      {
+        "_path": "lib/python3.6/site-packages/inflection/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "aa30d510082707dbb2740c4244d91b1462b89557de57139d6258c269e4982138",
+        "sha256_in_prefix": "aa30d510082707dbb2740c4244d91b1462b89557de57139d6258c269e4982138",
+        "size_in_bytes": 11597
+      },
+      {
+        "_path": "lib/python3.6/site-packages/inflection/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b497725c1f0fc25fc19d59854be208bd5e1aad25a2f1e9d5f8e06d2b23f0885d",
+  "size": 12469,
+  "subdir": "linux-64",
+  "timestamp": 1611675362382,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/inflection-0.5.1-py36h06a4308_0.conda",
+  "version": "0.5.1"
+}
