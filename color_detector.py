@@ -40,30 +40,25 @@ class _Image():
 class _Thresholds():
     thresh = dict()
     thresh["NEGRE_LOWER"]=np.array([0, 0, 0], np.uint8)
-    thresh["NEGRE_UPPER"]=np.array([27, 5, 51], np.uint8)
-    thresh["NEGRE_LOWER_2"]=np.array([0, 250, 0], np.uint8)
-    thresh["NEGRE_UPPER_2"]=np.array([27, 255, 51], np.uint8)
-    thresh["MARRO_LOWER"]=np.array([0, 200, 0], np.uint8)
-    thresh["MARRO_UPPER"]=np.array([9, 255, 102], np.uint8)
-    thresh["ROIG_LOWER"]=np.array([0, 250, 51], np.uint8)
-    thresh["ROIG_UPPER"]=np.array([1, 255, 165], np.uint8)
-    thresh["ROIG_LOWER_2"]=np.array([176, 254, 51], np.uint8)
-    thresh["ROIG_UPPER_2"]=np.array([179, 255, 165], np.uint8)
-    thresh["TARONJA_LOWER"]=np.array([2, 250, 76], np.uint8)
-    thresh["TARONJA_UPPER"]=np.array([8, 255, 204], np.uint8)
-    thresh["GROC_LOWER"]=np.array([14, 250, 64], np.uint8)
-    thresh["GROC_UPPER"]=np.array([22, 255, 196], np.uint8)
-    thresh["VERD_LOWER"]=np.array([53, 250, 0], np.uint8)
-    thresh["VERD_UPPER"]=np.array([72, 255, 102], np.uint8)
-    thresh["BLAU_LOWER"]=np.array([98, 250,0], np.uint8)
-    thresh["BLAU_UPPER"]=np.array([119, 255, 127], np.uint8)
-    thresh["LILA_LOWER"]=np.array([157, 100, 0], np.uint8)
-    thresh["LILA_UPPER"]=np.array([179, 255, 140], np.uint8)
-    thresh["GRIS_LOWER"]=np.array([0, 0, 0], np.uint8)
-    thresh["GRIS_UPPER"]=np.array([36, 153, 102], np.uint8)
-    thresh["BLANC_LOWER"]=np.array([9, 18, 64], np.uint8)
-    thresh["BLANC_UPPER"]=np.array([32, 102, 204], np.uint8)
-
+    thresh["NEGRE_UPPER"]=np.array([179, 85, 84], np.uint8)
+    thresh["MARRO_LOWER"]=np.array([0,127,127], np.uint8)
+    thresh["MARRO_UPPER"]=np.array([36,170,170], np.uint8)
+    thresh["ROIG_LOWER"]=np.array([0, 127, 170], np.uint8)
+    thresh["ROIG_UPPER"]=np.array([1, 255, 255], np.uint8)
+    thresh["TARONJA_LOWER"]=np.array([2, 127,170], np.uint8)
+    thresh["TARONJA_UPPER"]=np.array([10, 255, 255], np.uint8)
+    thresh["GROC_LOWER"]=np.array([11, 127, 170], np.uint8)
+    thresh["GROC_UPPER"]=np.array([36, 255, 255], np.uint8)
+    thresh["VERD_LOWER"]=np.array([37, 127, 170], np.uint8)
+    thresh["VERD_UPPER"]=np.array([84, 255, 255], np.uint8)
+    thresh["BLAU_LOWER"]=np.array([85, 127, 170], np.uint8)
+    thresh["BLAU_UPPER"]=np.array([138, 255, 255], np.uint8)
+    thresh["LILA_LOWER"]=np.array([139, 127, 170], np.uint8)
+    thresh["LILA_UPPER"]=np.array([179, 255, 255], np.uint8)
+    thresh["GRIS_LOWER"]=np.array([0, 0, 85], np.uint8)
+    thresh["GRIS_UPPER"]=np.array([179, 85, 169], np.uint8)
+    thresh["BLANC_LOWER"]=np.array([0, 0, 170], np.uint8)
+    thresh["BLANC_UPPER"]=np.array([179, 85, 255], np.uint8)
 
 img = _Image()
 img.set_img('./Imatges_retallades/680k-0-D-G.png')
@@ -75,14 +70,14 @@ for thresh in _Thresholds.thresh:
     else:
         thresh_upper.append(_Thresholds.thresh[thresh])
 
-names = ['negre', 'negre2', 'marro', 'roig', 'roig2', 'taronja', 'groc', 'verd', 'blau', 'lila', 'gris', 'blanc']
+names = ['negre', 'marro', 'roig', 'taronja', 'groc', 'verd', 'blau', 'lila', 'gris', 'blanc']
 img.set_areas(thresh_lower, thresh_upper, names)
 
 FIG = plt.figure(figsize=(10, 10))
 
 i=1
 for area in img.areas:
-    FIG.add_subplot(int(len(img.areas)/3), 3, i)
+    FIG.add_subplot(int(len(img.areas)/3+1), 3, i)
     plt.imshow(img.areas[area], interpolation='none', cmap='gray',aspect='equal')
     plt.axis('off')
     plt.title(area)
